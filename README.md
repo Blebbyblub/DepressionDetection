@@ -53,7 +53,7 @@ source therapy_env/bin/activate
 ### 3. Install required packages
 
 ```bash
-pip install streamlit pandas numpy plotly opencv-python tensorflow pillow librosa googletrans langdetect scikit-learn
+pip install -r requirements.txt
 ```
 
 ### 4. (Optional) Install audio recording support
