@@ -93,7 +93,7 @@ audio_depression_detector.py
 Run:
 
 ```bash
-streamlit run src/app.py
+streamlit run app.py
 ```
 
 Open the displayed URL (usually http://localhost:8501).
