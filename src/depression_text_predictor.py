@@ -11,9 +11,10 @@ from googletrans import Translator
 import langdetect
 
 class DepressionSeverityPredictor:
-    def __init__(self, model_path='depression_model.h5', tokenizer_path='tokenizer.pkl', 
-                 label_encoder_path='label_encoder.pkl'):
-        """Initialize the predictor with pre-trained model components"""
+    def __init__(self, model_path='models/depression_model.h5', 
+                 tokenizer_path='models/tokenizer.pkl', 
+                 label_encoder_path='models/label_encoder.pkl'):
+        """Initialize with organized file paths"""
         self.model = None
         self.tokenizer = None
         self.label_encoder = None

@@ -235,7 +235,7 @@ def main():
     
     # Load and preprocess data
     print("Loading and preprocessing data...")
-    df = predictor.load_and_preprocess_data('Depression_Severity_Levels_Dataset.csv')
+    df = predictor.load_and_preprocess_data('/data/Depression_Severity_Levels_Dataset.csv')
     
     # Train the model
     print("\nTraining the model...")
